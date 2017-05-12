@@ -1,5 +1,6 @@
-The CocoaPod Podspec
-=====
+# Testing CocoaPods Without Publishing Them
+
+## The CocoaPod Podspec
 
 If one doesn't exist, create a private podspecs repo on github, e.g. `timothyrodgers/podspecs.git`.
 
@@ -14,8 +15,8 @@ Correct the `s.source` to reference the private repo, e.g. change `github.com/br
 Correct any `s.dependency` which might also use a private pod (a *-tim pod).
 
 
-The Test App Podfile
-=====
+## The Test App Podfile
+
 Add this at the top of the test project Podfile:
 
 ```
@@ -31,8 +32,7 @@ target 'BCOVIMAVMAPVideoPlayer' do
 end
 ```
 
-The CocoaPod
-=====
+## The CocoaPod
 
 Create a CocoaPod repo, e.g. `brightcove-player-sdk-ios-ima.git`. Follow the instructions on github for populating the repo, quoted here:
 
@@ -59,4 +59,3 @@ git commit -a -m "Add files for v2.3.4"
 git tag -a v2.3.4 -m "Release v2.3.4"
 git push origin master --tags
 ```
-
