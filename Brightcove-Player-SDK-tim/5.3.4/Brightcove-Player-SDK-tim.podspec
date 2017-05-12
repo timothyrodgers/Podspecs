@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Commercial', :file => 'LICENSE.md' }
   s.author       = { "Brightcove" => "brightcove-native-player-sdks@googlegroups.com" }
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/brightcove/brightcove-player-sdk-ios.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/timothyrodgers/brightcove-player-sdk-ios.git", :tag => "v#{s.version}" }
 
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0' 
