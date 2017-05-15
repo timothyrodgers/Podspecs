@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
 	s.platform = :ios
 	s.ios.deployment_target = '8.0'
-	s.source       = { :git => "https://github.com/brightcove/brightcove-player-sdk-ios-ima.git", :tag => "v#{s.version}" }
+	s.source       = { :git => "https://github.com/timothyrodgers/brightcove-player-sdk-ios-ima.git", :tag => "v#{s.version}" }
 	s.requires_arc = true
 
 	s.dependency 'Brightcove-Player-SDK-tim/dynamic', '~> 5.3.0'
