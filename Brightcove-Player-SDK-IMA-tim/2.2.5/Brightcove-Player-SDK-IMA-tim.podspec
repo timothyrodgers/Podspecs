@@ -26,6 +26,4 @@ Pod::Spec.new do |s|
 		admob.vendored_framework   = "ios/BrightcoveIMA.framework"
 	end
 
-
-
 end
