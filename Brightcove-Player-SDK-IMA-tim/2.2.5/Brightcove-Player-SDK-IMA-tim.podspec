@@ -13,17 +13,8 @@ Pod::Spec.new do |s|
 	s.requires_arc = true
 
 	s.dependency 'Brightcove-Player-SDK-tim/dynamic', '~> 5.3.0'
+	s.dependency 'GoogleAds-IMA-iOS-SDK', '3.5.2'
 	
-	s.default_subspec = 'Default'
-
-	s.subspec 'Default' do |default|	
-		default.dependency 'GoogleAds-IMA-iOS-SDK', '3.5.2'
-		default.vendored_framework   = "ios/BrightcoveIMA.framework"
-	end
-	
-	s.subspec 'ForAdMob' do |admob|
-		admob.dependency 'Google-Mobile-Ads-SDK'
-		admob.vendored_framework   = "ios/BrightcoveIMA.framework"
-	end
+	default.vendored_framework   = "ios/BrightcoveIMA.framework"
 
 end
