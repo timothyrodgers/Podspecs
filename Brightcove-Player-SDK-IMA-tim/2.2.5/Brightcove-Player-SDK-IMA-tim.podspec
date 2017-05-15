@@ -9,11 +9,23 @@ Pod::Spec.new do |s|
 
 	s.platform = :ios
 	s.ios.deployment_target = '8.0'
-	s.source       = { :git => "https://github.com/timothyrodgers/brightcove-player-sdk-ios-ima.git", :tag => "v#{s.version}" }
+	s.source       = { :git => "https://github.com/brightcove/brightcove-player-sdk-ios-ima.git", :tag => "v#{s.version}" }
 	s.requires_arc = true
 
 	s.dependency 'Brightcove-Player-SDK-tim/dynamic', '~> 5.3.0'
-	s.dependency 'GoogleAds-IMA-iOS-SDK', '3.5.2'
-	s.vendored_framework   = "ios/BrightcoveIMA.framework"
+	
+	s.default_subspec = 'Default'
+
+	s.subspec 'Default' do |default|	
+		default.dependency 'GoogleAds-IMA-iOS-SDK', '3.5.2'
+		default.vendored_framework   = "ios/BrightcoveIMA.framework"
+	end
+	
+	s.subspec 'ForAdMob' do |admob|
+		admob.dependency 'Google-Mobile-Ads-SDK'
+		admob.vendored_framework   = "ios/BrightcoveIMA.framework"
+	end
+
+
 
 end
