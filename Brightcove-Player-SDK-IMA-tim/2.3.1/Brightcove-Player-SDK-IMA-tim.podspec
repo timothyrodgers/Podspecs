@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name         = "Brightcove-Player-SDK-IMA-tim"
-	s.version      = "2.2.5"
+	s.version      = "2.3.1"
 	s.summary      = "IMA Plugin for Brightcove Player SDK for iOS"
 	s.homepage     = "https://docs.brightcove.com/en/video-cloud/mobile-sdks/"
 	s.license      = { :type => 'Commercial', :file => 'LICENSE.md' }
