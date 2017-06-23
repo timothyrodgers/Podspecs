@@ -2,17 +2,19 @@
 
 ## The CocoaPod Podspec
 
-If one doesn't exist, create a private podspecs repo on github, e.g. `timothyrodgers/podspecs.git`.
+_If one doesn't exist, create a private podspecs repo on github, e.g. `timothyrodgers/podspecs.git`._
 
-Populate the podspecs repo just like BCOVSpecs on github - rename *.podspec as *-tim.podspec. For example:
+1. Populate the podspecs repo just like BCOVSpecs on github - rename *.podspec as *-tim.podspec. For example:
 
 	podspecs/Brightcove-Player-SDK-IMA-tim/2.3.4/Brightcove-Player-SDK-tim.podspec
 
-Correct the `s.name` file in the `*-tim.podspec`. The `s.name` must match the podspec file basename.
+1. Correct the `s.name` file in the `*-tim.podspec`. The `s.name` must match the podspec file basename.
 
-Correct the `s.source` to reference the private repo, e.g. change `github.com/brightcove` to `github.com/timothyrodgers`
+1. Correct the `s.source` to reference the private repo, e.g. change `github.com/brightcove` to `github.com/timothyrodgers`
 
-Correct any `s.dependency` which might also use a private pod (a *-tim pod).
+1. Correct any `s.dependency` which might also use a private pod (a *-tim pod).
+
+1. git-add, git-commit and git-push the new podspec. The comment and tag do not matter here.
 
 
 ## The Test App Podfile
@@ -34,7 +36,7 @@ end
 
 ## The CocoaPod
 
-Create a CocoaPod repo, e.g. `brightcove-player-sdk-ios-ima.git`. Follow the instructions on github for populating the repo, quoted here:
+_If the CocoaPod repo does not exist, e.g. `brightcove-player-sdk-ios-ima.git`, create it. Follow the instructions on github for populating the repo, quoted here:_
 
 **…or create a new repository on the command line**
 ```
