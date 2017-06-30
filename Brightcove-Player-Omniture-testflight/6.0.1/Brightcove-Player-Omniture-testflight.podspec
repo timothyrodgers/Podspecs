@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   
-  s.dependency 'Brightcove-Player-Core/default', '= 6.0.1'
+  s.dependency 'Brightcove-Player-Core-testflight/default', '= 6.0.1'
   s.ios.vendored_framework   = "ios/BrightcoveAMC.framework"
 
   s.weak_frameworks = 'SystemConfiguration'
