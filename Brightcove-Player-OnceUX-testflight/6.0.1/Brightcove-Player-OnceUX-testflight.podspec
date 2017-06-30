@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   
   s.subspec "default" do |ss|
   
-    ss.dependency 'Brightcove-Player-Core/default', '= 6.0.1'
+    ss.dependency 'Brightcove-Player-Core-testflight/default', '= 6.0.1'
     
     ss.ios.vendored_framework   = "ios/static/BrightcoveOUX.framework"
     ss.ios.weak_framework       = 'WebKit'
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.subspec "dynamic" do |ss|
   
-    ss.dependency 'Brightcove-Player-Core/dynamic', '= 6.0.1'
+    ss.dependency 'Brightcove-Player-Core-testflight/dynamic', '= 6.0.1'
     
     ss.ios.vendored_framework   = "ios/dynamic/BrightcoveOUX.framework"
     ss.ios.weak_framework       = 'WebKit'
