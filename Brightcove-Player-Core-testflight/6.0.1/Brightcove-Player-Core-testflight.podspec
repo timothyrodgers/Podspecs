@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 
-  s.name         = "Brightcove-Player-SDK-tim"
-  s.version      = "5.3.5"
+  s.name         = "Brightcove-Player-Core-testflight"
+  s.version      = "6.0.1"
   s.summary      = "Brightcove Player SDK for iOS"
-  s.homepage     = "https://docs.brightcove.com/en/video-cloud/mobile-sdks/"
+  s.homepage     = "https://docs.brightcove.com/en/player/mobile-sdks/"
   s.license      = { :type => 'Commercial', :file => 'LICENSE.md' }
   s.author       = { "Brightcove" => "brightcove-native-player-sdks@googlegroups.com" }
   s.requires_arc = true
