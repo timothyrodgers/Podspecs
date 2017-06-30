@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 	s.source       = { :git => "https://github.com/timothyrodgers/brightcove-player-sdk-ios-ima.git", :tag => "v#{s.version}" }
 	s.requires_arc = true
 
-	s.dependency 'Brightcove-Player-Core/dynamic', '= 6.0.1'
+	s.dependency 'Brightcove-Player-Core-testflight/dynamic', '= 6.0.1'
 	s.dependency 'GoogleAds-IMA-iOS-SDK', '3.5.2'
 	
 	s.vendored_framework   = "ios/BrightcoveIMA.framework"
