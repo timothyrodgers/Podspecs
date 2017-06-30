@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.vendored_framework   = "ios/BrightcoveFW.framework"
-  s.dependency 'Brightcove-Player-Core/default', '= 6.0.1'
+  s.dependency 'Brightcove-Player-Core-testflight/default', '= 6.0.1'
 
   s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore', 'CoreLocation', 'MessageUI', 'EventKit', 'CoreMedia', 'AVFoundation'
   s.weak_frameworks = 'AdSupport'
