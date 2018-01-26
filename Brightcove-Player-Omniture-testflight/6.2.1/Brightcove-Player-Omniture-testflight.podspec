@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/timothyrodgers/brightcove-player-sdk-ios-omniture.git", :tag => "v#{s.version}" }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   
   s.dependency 'Brightcove-Player-Core-testflight/default', '6.2.1'
   s.ios.vendored_framework   = "ios/BrightcoveAMC.framework"

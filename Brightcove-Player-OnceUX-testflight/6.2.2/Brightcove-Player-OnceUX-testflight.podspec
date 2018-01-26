@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Brightcove-Player-OnceUX-testflight"
-  s.version      = "6.2.2"
+  s.version      = "6.2.1"
   s.summary      = "OnceUX Plugin for Brightcove Player SDK for iOS"
   s.homepage     = "https://docs.brightcove.com/en/player/mobile-sdks/"
   s.license      = { :type => 'Commercial', :file => 'LICENSE.md' }
@@ -11,12 +11,12 @@ Pod::Spec.new do |s|
   
   s.default_subspec = 'default'
    
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
   
   s.subspec "default" do |ss|
   
-    ss.dependency 'Brightcove-Player-Core-testflight/default', '6.2.2'
+    ss.dependency 'Brightcove-Player-Core-testflight/default', '6.2.1'
     
     ss.ios.vendored_framework   = "ios/static/BrightcoveOUX.framework"
     ss.ios.weak_framework       = 'WebKit'
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.subspec "dynamic" do |ss|
   
-    ss.dependency 'Brightcove-Player-Core-testflight/dynamic', '6.2.2'
+    ss.dependency 'Brightcove-Player-Core-testflight/dynamic', '6.2.1'
     
     ss.ios.vendored_framework   = "ios/dynamic/BrightcoveOUX.framework"
     ss.ios.weak_framework       = 'WebKit'
