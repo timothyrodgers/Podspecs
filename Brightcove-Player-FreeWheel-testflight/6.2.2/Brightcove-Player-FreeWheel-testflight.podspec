@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Brightcove-Player-FreeWheel-testflight"
-  s.version      = "6.2.1"
+  s.version      = "6.2.2"
   s.summary      = "FreeWheel Plugin for Brightcove Player SDK for iOS"
   s.homepage     = "https://docs.brightcove.com/en/player/mobile-sdks/"
   s.license      = { :type => 'Commercial', :file => 'LICENSE.md' }
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.vendored_framework   = "ios/BrightcoveFW.framework"
-  s.dependency 'Brightcove-Player-Core-testflight/default', '6.2.1'
+  s.dependency 'Brightcove-Player-Core-testflight/default', '6.2.2'
 
   s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore', 'CoreLocation', 'MessageUI', 'EventKit', 'CoreMedia', 'AVFoundation'
   s.weak_frameworks = 'AdSupport'
