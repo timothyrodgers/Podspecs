@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     ss.ios.deployment_target    = '9.0'
     ss.ios.vendored_framework   = "ios/dynamic/BrightcovePlayerSDK.framework"
     ss.ios.frameworks  = 'CoreMedia', 'CoreMotion', 'GLKit', 'MediaAccessibility', 'MediaPlayer', 'SafariServices', 'SystemConfiguration', 'WebKit'
-	ss.ios.weak_frameworks = 'AVFoundation'
+    ss.ios.weak_frameworks = 'AVFoundation'
     ss.ios.resource_bundle = { 'BCOVPUIResources' => 'ios/dynamic/BrightcovePlayerSDK.framework/bcovpuiiconfont.ttf' }
     
     ss.tvos.deployment_target   = '9.0' 
