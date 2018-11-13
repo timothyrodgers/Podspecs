@@ -18,10 +18,11 @@ Pod::Spec.new do |s|
   
     ss.dependency 'Brightcove-Player-Core-testflight/default', '6.2.3'
     
-    ss.ios.vendored_framework   = "ios/static/BrightcovSSAI.framework"
+#     ss.ios.vendored_framework   = "ios/static/BrightcovSSAI.framework"
+    ss.ios.vendored_framework   = "ios/BrightcovSSAI.framework"
     ss.ios.weak_framework       = 'WebKit'
     
-    ss.tvos.vendored_framework  = "tvos/BrightcoveSSAI.framework"
+#     ss.tvos.vendored_framework  = "tvos/BrightcoveSSAI.framework"
 
   end
 
