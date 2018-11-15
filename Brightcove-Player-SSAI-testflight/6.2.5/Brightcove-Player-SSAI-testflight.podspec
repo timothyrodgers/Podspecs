@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     ss.ios.vendored_framework   = "ios/static/BrightcoveSSAI.framework"
     ss.ios.weak_framework       = 'WebKit'
     
-#     ss.tvos.vendored_framework  = "tvos/BrightcoveSSAI.framework"
+    ss.tvos.vendored_framework  = "tvos/BrightcoveSSAI.framework"
 
   end
 
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     ss.ios.vendored_framework   = "ios/dynamic/BrightcoveSSAI.framework"
     ss.ios.weak_framework       = 'WebKit'
     
-#     ss.tvos.vendored_framework  = "tvos/BrightcoveSSAI.framework"
+    ss.tvos.vendored_framework  = "tvos/BrightcoveSSAI.framework"
     
   end
 
